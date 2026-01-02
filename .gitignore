@@ -1,0 +1,41 @@
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+.DS_Store
+.project
+.pydevproject
+.settings/
+.vscode/
+
+# Python environment
+env/
+env_bak/
+
+# Logs
+logs/*.log
+logs/*.err
+
+# Sites
+sites/assets/
+sites/languages.json
+sites/common_site_config.json
+sites/*/public/files/
+sites/*/private/files/
+sites/*/site_config.json
+sites/*/locks/
+
+# Config
+config/nginx.conf
+config/supervisor.conf
+config/redis_*.conf
+
+# Nodes
+node_modules/
+yarn-error.log
+
+# Frappe specific
+.build
+.DS_Store
+*.swp
+*.bak
