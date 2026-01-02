@@ -7,5 +7,12 @@
         "required": [],
         "idx": 1,
         "version": "16.0.0-dev"
+    },
+    "kita_management": {
+        "is_repo": false,
+        "resolution": "not a repo",
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
     }
 }

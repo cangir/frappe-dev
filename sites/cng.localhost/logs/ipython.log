@@ -1,0 +1,31 @@
+2026-01-03 00:23:22,275 INFO ipython === bench console session ===
+2026-01-03 00:23:22,275 INFO ipython doc = frappe.get_doc("Workspace", "Kita Management")
+2026-01-03 00:23:22,275 INFO ipython doc.app = "kita_management"
+2026-01-03 00:23:22,275 INFO ipython doc.module = "Kita Management"
+2026-01-03 00:23:22,275 INFO ipython doc.public = 1
+2026-01-03 00:23:22,275 INFO ipython doc.is_hidden = 0
+2026-01-03 00:23:22,275 INFO ipython doc.save(ignore_permissions=True)
+2026-01-03 00:23:22,275 INFO ipython frappe.db.commit()
+2026-01-03 00:23:22,275 INFO ipython === session end ===
+2026-01-03 00:23:32,159 INFO ipython === bench console session ===
+2026-01-03 00:23:32,160 INFO ipython doc = frappe.get_doc("Workspace", "Kita Management")
+2026-01-03 00:23:32,160 INFO ipython print(f"Title: {doc.title}")
+2026-01-03 00:23:32,160 INFO ipython doc.title = doc.title or "Kita Management"
+2026-01-03 00:23:32,160 INFO ipython doc.app = "kita_management"
+2026-01-03 00:23:32,160 INFO ipython doc.module = "Kita Management"
+2026-01-03 00:23:32,160 INFO ipython doc.public = 1
+2026-01-03 00:23:32,160 INFO ipython doc.is_hidden = 0
+2026-01-03 00:23:32,160 INFO ipython doc.save(ignore_permissions=True)
+2026-01-03 00:23:32,160 INFO ipython frappe.db.commit()
+2026-01-03 00:23:32,160 INFO ipython === session end ===
+2026-01-03 00:23:43,368 INFO ipython === bench console session ===
+2026-01-03 00:23:43,368 INFO ipython doc = frappe.get_doc("Workspace", "Kita Management")
+2026-01-03 00:23:43,368 INFO ipython doc.title = doc.title or "Kita Management"
+2026-01-03 00:23:43,368 INFO ipython doc.app = "kita_management"
+2026-01-03 00:23:43,368 INFO ipython doc.module = "Kita Management"
+2026-01-03 00:23:43,368 INFO ipython doc.public = 1
+2026-01-03 00:23:43,368 INFO ipython doc.is_hidden = 0
+2026-01-03 00:23:43,368 INFO ipython doc.content = doc.content or "[]"
+2026-01-03 00:23:43,368 INFO ipython doc.save(ignore_permissions=True)
+2026-01-03 00:23:43,368 INFO ipython frappe.db.commit()
+2026-01-03 00:23:43,368 INFO ipython === session end ===
